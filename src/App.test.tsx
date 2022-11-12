@@ -7,6 +7,6 @@ describe('group test',()=>{
   
   it('verify get by role',()=>{
     render(<App/>)
-    expect(screen.getByTitle('heading')).tohavedefend()
+    expect(screen.getByTitle('heading')).tohaveCalled()
   })
 })
